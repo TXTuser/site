@@ -1,0 +1,18 @@
+  -webkit-transition: all 0.3s ease;
+  ;
+  -moz-transition: all 0.3s ease;
+  ;
+  -o-transition: all 0.3s ease;
+  ;
+  transition: all 0.3s ease;
+
+
+
+
+  /* box-sizing: border-box; */
+  Нужен для того что бы padding или обводка не расширяли тег
+  /* 
+   */
+  /*  position: relative; */
+  В слайдере нужно для того что бы комментарии выравнивались относительно своего родителя,
+  а не относительнго экрана

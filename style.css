@@ -34,6 +34,7 @@ a {
 }
 
 .header {
+    font-family: 'Montserrat', sans-serif;
     background-color: #212121;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -293,7 +294,7 @@ header ul {
 .flats {
     font-size: 25px;
     text-align: center;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .flatCard {
@@ -371,7 +372,7 @@ header ul {
 .comments {
     padding-bottom: 25px;
     text-align: center;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .comments .sectionTitle {
@@ -449,14 +450,14 @@ header ul {
 
 footer {
     padding: 40px 50px;
-    padding-bottom: 300px;
-    justify-content: space-between;
     font-family: 'Montserrat', sans-serif;
     background-color: #212121;
 }
 
 footer .container {
     display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .footerleftside img {
@@ -468,6 +469,7 @@ footer .container {
 
 .footerleftside {
     display: flex;
+    padding: 10px;
 }
 
 footer ul a {
@@ -500,10 +502,8 @@ footer li {
     display: flex;
 }
 
-.footerrightside {}
-
 .footerrightside img {
-    width: 75px;
+    width: 50px;
     height: 40px;
     filter: invert(100%);
 }
@@ -515,10 +515,12 @@ footer li {
 
 .adr {
     display: flex;
+    padding: 10px;
 }
 
 .phn {
     display: flex;
+    padding: 10px;
 }
 
 

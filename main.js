@@ -5,6 +5,7 @@ let sliderLine = document.querySelector(".slider_line");
 let slidernum = 0;
 let commentnext = document.getElementById("commentnext")
 let commentprev = document.getElementById("commentprev")
+let modalwindow = document.getElementsByClassName("modal_window")[0]
 
 popUp.onclick = function (event) {
   event.preventDefault();
@@ -14,6 +15,9 @@ popUp.onclick = function (event) {
 modalPopUp.onclick = function () {
   modalPopUp.style.transform = "translateY(-100%)";
 };
+modalwindow.onclick = function(event) {
+  event.stopPropagation();
+}
 
 submit.onclick = function (event) {
   event.preventDefault();
